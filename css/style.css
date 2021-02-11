@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+body{
+	font-family: 'Open Sans', sans-serif !important;
+	color: #212121 !important;
+}
+.container-fluid{
+	padding: 0px 110px !important;
+}
+/*Header*/
+.nav-item{
+	padding: 0px 30px 0px 0px;
+}
+.nav-item:last-child{
+	padding: 0px;
+}
+.navbar-light {
+  background-color: #fff;
+}
+.nav-link{
+	font-size: 20px;
+  	color: #212121 !important;
+  	line-height: 1.1;
+}
+.navbar-brand {
+  	font-size: 25px;
+	color: #212121 !important;
+  	font-weight: 700;
+  	line-height: 0.88;
+}
+/*Prevue*/
+.prevue{
+	width: 100%;
+	height: 100vh;
+	background: url(../img/prevue/Prevue.png);
+	background-size: cover;
+	position: relative;
+	color: #fff;
+}
+
+.prevue__title{
+  font-size: 60px !important;
+  line-height: 0.367 !important;
+  margin: 0px 0px 50px 0px;
+}
+.prevue__subtitle{
+  font-size: 22px !important;
+}
+.btn-outline-light{
+  	border-width: 3px !important;
+	border-radius: 0 !important;
+  	width: 214px;
+  	height: 64px;
+	margin: 0px 25px 0px 0px;
+
+   font-size: 20px !important;
+	font-weight: 700 !important;
+  	line-height: 1.1 !important;
+}
+.btn-success{
+  	background-color: #00897b !important;
+	border-radius: 0 !important;
+  	width: 220px;
+ 	height: 70px;
+
+  	font-size: 20px !important;
+	font-weight: 700 !important;
+  	line-height: 1.1 !important;
+}
+.prevue__buttons{
+	margin: 110px 0px 0px 0px;
+}
+.fa-chevron-down{
+	font-size: 25px;
+}
+
+/*About us*/
+.about-us {
+	padding: 125px 50px;
+}
+
+.about-us__title {}
+.title {
+	font-size: 30px;
+  	font-weight: 700;
+  	line-height: 0.733;
+	margin: 0px 0px 35px 0px;
+}
+.about-us__subtitle {
+	max-width: 630px;
+	margin: 0px auto 122px auto;
+}
+.subtitle {
+  	font-size: 15px;
+  	line-height: 1.467;
+	
+}
+.about-us__col-img {
+	margin: 0px auto 40px auto;
+}
+
+.about-us__col-title {
+  font-size: 20px;
+  line-height: 1.1;
+  
+  margin: 0px 0px 20px 0px;
+}
+.about-us__col-text {
+  font-size: 15px;
+  line-height: 1.467;
+
+  max-width: 250px;
+  margin: 0px auto;
+}
+
+
+
