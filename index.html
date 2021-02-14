@@ -12,7 +12,7 @@
 	<header id="header" class="fixed-top">
 		<nav class="navbar navbar-expand-md navbar-light py-4">
 			<div class="container-fluid text-center">
-				<a href="#" class="navbar-brand">Your Logo</a>
+				<a href="#home" class="navbar-brand">Your Logo</a>
 				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navContent"
 					aria-controls="navContent" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
@@ -20,16 +20,16 @@
 				<div class="collapse navbar-collapse justify-content-end" id="navContent">
 					<ul class="navbar-nav">
 						<li class="nav-item">
-							<a href="#" class="nav-link">Home</a>
+							<a href="#home" class="nav-link">Home</a>
 						</li>
 						<li class="nav-item">
-							<a href="#" class="nav-link">Agout</a>
+							<a href="#about-us" class="nav-link">About</a>
 						</li>
 						<li class="nav-item">
-							<a href="#" class="nav-link">Servicing</a>
+							<a href="#our-services" class="nav-link">Servicing</a>
 						</li>
 						<li class="nav-item">
-							<a href="#" class="nav-link">Portfolio</a>
+							<a href="#lates-works" class="nav-link">Portfolio</a>
 						</li>
 						<li class="nav-item">
 							<a href="#" class="nav-link">Blog</a>
@@ -47,22 +47,22 @@
 			</div>
 		</nav>
 	</header>
-	<div class="prevue d-flex align-items-center justify-content-center">
+	<div class="prevue d-flex align-items-center justify-content-center" id="home">
 		<div class="container-fluid">
 			<div class="text-center">
 				<h1 class="prevue__title">Web development project</h1>
 				<h3 class="prevue__subtitle">Very suitable to support all web development projects</h3>
 			</div>
 			<div class="col justify-content-center align-items-center d-flex prevue__buttons">
-				<button type="button" class="btn btn-outline-light">OUR SERVICES</button>
+				<a href="#our-services"><button type="button" class="btn btn-outline-light">OUR SERVICES</button></a>
 				<button type="button" class="btn btn-success">HIRE IS NOW</button>
 			</div>
-			<div class="row text-center position-absolute bottom-0 start-50 translate-middle-x mb-5">
-				<i class="fas fa-chevron-down"></i>
+			<div class="row text-center position-absolute bottom-0 start-50 translate-middle-x mb-5 prevue-fa-chevron-down__animation">
+				<a href="#about-us"><i class="fas fa-chevron-down"></i></a>
 			</div>
 		</div>
 	</div>
-	<div class="about-us">
+	<div class="about-us" id="about-us">
 		<div class="container-fluid text-center">
 			<h2 class=" title">About Us</h2>
 			<p class="about-us__subtitle subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit illo dolor qui dolorum perferendis explicabo saepe incidunt obcaecati repellendus veritatis!</p>
@@ -91,16 +91,14 @@
 			</div>
 		</div>
 	</div>
-	<div class="our-services ">
+	<div class="our-services" id="our-services">
 		<div class="container-fluid text-center">
 			<h2 class=" title">Our Services</h2>
 			<p class=" subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit illo dolor qui
 				dolorum perferendis explicabo saepe incidunt obcaecati repellendus veritatis!</p>
-			<div class="row our-services__row justify-content-center mb-4">
+			<div class="row  justify-content-center mb-4">
 				<div class="col our-services__col mx-3">
-					<div class="col-img">
-						<img src="img/our-services/smartphone.png" alt="smartphone">
-					</div>
+					<div class="col-img"></div>
 					<h5 class="col-title">Research</h5>
 					<p class="col-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam, quia? Modi facere
 						aliquid
@@ -108,9 +106,7 @@
 					<button type="button" class="btn btn-outline-dark col-button">Read more</button>
 				</div>
 				<div class="col our-services__col mx-3">
-					<div class="col-img">
-						<img src="img/our-services/smartphone.png" alt="smartphone">
-					</div>
+					<div class="col-img"></div>
 					<h5 class="col-title">Portfolio</h5>
 					<p class="col-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam, quia? Modi facere
 						aliquid
@@ -118,9 +114,7 @@
 					<button type="button" class="btn btn-outline-dark col-button">Read more</button>
 				</div>
 				<div class="col our-services__col mx-3">
-					<div class="col-img">
-						<img src="img/our-services/smartphone.png" alt="smartphone">
-					</div>
+					<div class="col-img"></div>
 					<h5 class="col-title">Support</h5>
 					<p class="col-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam, quia? Modi facere
 						aliquid
@@ -128,11 +122,9 @@
 					<button type="button" class="btn btn-outline-dark col-button">Read more</button>
 				</div>
 			</div>
-			<div class="row our-services__row justify-content-center">
+			<div class="row justify-content-center">
 				<div class="col our-services__col mx-3">
-					<div class="col-img">
-						<img src="img/our-services/smartphone.png" alt="smartphone">
-					</div>
+					<div class="col-img"></div>
 					<h5 class="col-title">Documentation</h5>
 					<p class="col-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam, quia? Modi facere
 						aliquid
@@ -140,9 +132,7 @@
 					<button type="button" class="btn btn-outline-dark col-button">Read more</button>
 				</div>
 				<div class="col our-services__col mx-3">
-					<div class="col-img">
-						<img src="img/our-services/smartphone.png" alt="smartphone">
-					</div>
+					<div class="col-img"></div>
 					<h5 class="col-title">Development</h5>
 					<p class="col-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam, quia? Modi facere
 						aliquid
@@ -150,9 +140,7 @@
 					<button type="button" class="btn btn-outline-dark col-button">Read more</button>
 				</div>
 				<div class="col our-services__col mx-3">
-					<div class="col-img">
-						<img src="img/our-services/smartphone.png" alt="smartphone">
-					</div>
+					<div class="col-img"></div>
 					<h5 class="col-title">Design</h5>
 					<p class="col-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam, quia? Modi facere
 						aliquid
@@ -162,7 +150,164 @@
 			</div>
 		</div>
 	</div>
-	
+	<div class="lates-works" id="lates-works">
+		<div class="container-fluid text-center">
+			<h2 class=" title">Lates Works</h2>
+			<p class=" subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit illo dolor qui
+				dolorum perferendis explicabo saepe incidunt obcaecati repellendus veritatis!</p>
+			<div class="lates-works__butons">
+				<button class="btn btn-outline-success me-2 lates-works__buton-active" type="button" data-bs-toggle="collapse" data-bs-target=".multi-collapse"
+					aria-expanded="false" aria-controls="WebDesign Ui-Ux-Design Mockups">All</button>
+
+				<button class="btn btn-outline-success lates-works__buton-active" type="button" data-bs-toggle="collapse" data-bs-target="#Ui-Ux-Design, #Mockups"
+					aria-expanded="false" aria-controls="Ui-Ux-Design Mockups">WEB DESIGN</button>
+
+				<button class="btn btn-outline-success ms-2 lates-works__buton-active" type="button" data-bs-toggle="collapse" data-bs-target="#WebDesign, #Mockups"
+					aria-expanded="false" aria-controls="WebDesign Mockups">UI/UX Design</button>
+
+				<button class="btn btn-outline-success ms-2 lates-works__buton-active" type="button" data-bs-toggle="collapse" data-bs-target="#WebDesign, #Ui-Ux-Design"
+					aria-expanded="false" aria-controls="WebDesign Ui-Ux-Design">MOCKUPS</button>
+			</div>
+			<div class="row align-items-center justify-content-center">
+				<div class="col-lg-3 col-md-6  collapse multi-collapse show mb-4" id="Ui-Ux-Design">
+					<div class="lates-works__item">
+						<div class="lates-works__img">
+							<img src="img/lates works/UiUxDesign/hand-watch.png" class="img-fluid" alt="hand-watch">
+						</div>
+						<div class="lates-works__text d-flex justify-content-center flex-column">
+							<h5>Hand Watch</h5>
+							<p>ui/ux design</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6  collapse multi-collapse show mb-4" id="WebDesign">
+					<div class="lates-works__item">
+						<div class="lates-works__img">
+							<img src="img/lates works/Web Design/Layer 2.png" class="img-fluid" alt="One day pass">
+						</div>
+						<div class="lates-works__text d-flex justify-content-center flex-column">
+							<h5>One day pass</h5>
+							<p>web design</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6  collapse multi-collapse show mb-4" id="WebDesign">
+					<div class="lates-works__item">
+						<div class="lates-works__img">
+							<img src="img/lates works/Web Design/Layer 3.png" class="img-fluid" alt="T-shirts">
+						</div>
+						<div class="lates-works__text d-flex justify-content-center flex-column">
+							<h5>T-shirts</h5>
+							<p>web design</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row align-items-center justify-content-center">
+				<div class="col-lg-3 col-md-6  collapse multi-collapse show" id="Ui-Ux-Design">
+					<div class="lates-works__item">
+						<div class="lates-works__img">
+							<img src="img/lates works/UiUxDesign/Layer 4.png" class="img-fluid" alt="glue">
+						</div>
+						<div class="lates-works__text d-flex justify-content-center flex-column">
+							<h5>Glue</h5>
+							<p>ui/ux design</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6  collapse multi-collapse show" id="Mockups">
+					<div class="lates-works__item">
+						<div class="lates-works__img">
+							<img src="img/lates works/Mockups/Layer 5.png" class="img-fluid" alt="alcohol">
+						</div>
+						<div class="lates-works__text d-flex justify-content-center flex-column">
+							<h5>Alcohol</h5>
+							<p>mockups</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6  collapse multi-collapse show" id="Mockups">
+					<div class="lates-works__item">
+						<div class="lates-works__img">
+							<img src="img/lates works/Mockups/Layer 6.png" class="img-fluid" alt="backpack">
+						</div>
+						<div class="lates-works__text d-flex justify-content-center flex-column">
+							<h5 class="">Backpack</h5>
+							<p>mockups</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<button type="button" class="btn btn-success lates-works__buton">VIEW ALL</button>
+		</div>
+	</div>
+	<div class="pricing-plan">
+		<div class="container-fluid text-center">
+			<h2 class=" title">Pricing Plan</h2>
+			<p class=" subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit illo dolor qui
+				dolorum perferendis explicabo saepe incidunt obcaecati repellendus veritatis!</p>
+			
+			<div class="row">
+				<div class="col-md-4 col-sm-6">
+					<div class="pricingTable">
+						<div class="pricingTable__header">
+							<h3 class="heading">Free Trail</h3>
+							<div class="price-value">00
+								<span class="currency">$</span>
+								<span class="month">per month</span>
+							</div>
+						</div>
+						<ul class="pricing-content">
+							<li>30 Free Trail</li>
+							<li>5 Free Projects</li>
+							<li>PHP 5 Enabled</li>
+							<li>24/7 Suports</li>
+						</ul>
+						<button type="button" class="btn btn-outline-dark col-button pricing__button">Read more</button>
+					</div>
+				</div>
+			
+				<div class="col-md-4 col-sm-6">
+					<div class="pricingTable">
+						<div class="pricingTable__header">
+							<h3 class="heading">Basic</h3>
+							<div class="price-value">50
+								<span class="currency">$</span>
+								<span class="month">per month</span>
+							</div>
+						</div>
+						<ul class="pricing-content">
+							<li>30 Free Trail</li>
+							<li>5 Free Projects</li>
+							<li>PHP 5 Enabled</li>
+							<li>24/7 Suports</li>
+						</ul>
+						<button type="button" class="btn btn-outline-dark col-button pricing__button">Read more</button>
+					</div>
+				</div>
+			
+				<div class="col-md-4 col-sm-6">
+					<div class="pricingTable">
+						<div class="pricingTable__header">
+							<h3 class="heading">Ultimates</h3>
+							<div class="price-value">99
+								<span class="currency">$</span>
+								<span class="month">per month</span>
+							</div>
+						</div>
+						<ul class="pricing-content">
+							<li>30 Free Trail</li>
+							<li>5 Free Projects</li>
+							<li>PHP 5 Enabled</li>
+							<li>24/7 Suports</li>
+						</ul>
+						<button type="button" class="btn btn-outline-dark col-button pricing__button">Read more</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 	<script src="https://kit.fontawesome.com/33ab3e3e12.js" crossorigin="anonymous"></script>
 	<script src="scr/js/bootstrap.js"></script>
 	<script src="js/script.js"></script>
