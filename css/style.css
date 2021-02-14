@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
 body{
 	font-family: 'Open Sans', sans-serif !important;
 	color: #212121 !important;
@@ -205,7 +205,7 @@ a .fa-chevron-down{
 	color: #fff !important;
 	background-color: #00897b !important;
 }
-.active{
+.lates-works .active{
 	color: #fff !important;
 	background-color: #00897b !important;
 }
@@ -323,4 +323,50 @@ a .fa-chevron-down{
 .pricingTable:hover{
 	animation-duration: 1.5s;
 	box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.5);
+}
+/*Our team*/
+.our-team{
+	padding: 123px 0px;
+}
+.carousel-indicators{
+	bottom: -120px !important;
+}
+.carousel-indicators li{
+	border-radius: 100% !important;
+	background-color: #00897b !important;
+	width: 15px !important;
+	height: 15px !important;
+	opacity: 1 !important;
+}
+.carousel-indicators .active{
+	background-color: #3949ab !important;
+}
+.team-member .social i{
+	color: #00897b !important;
+	font-size: 30px;
+
+	height: 50px;
+	width: 50px;
+	padding: 10px;
+	border-radius: 10px;
+	background-color: #f0f1f1;
+}
+.team-member .social i:hover{
+	background-color: #3949ab;
+	animation-duration: 1s;
+	color: #fff !important;
+}
+.team-member .social{
+	margin-top: 20px;
+}
+.team-member h5{
+  	font-size: 20px;
+	font-weight: 600;
+  	line-height: 1.1;
+
+	margin-top: 30px;
+}
+.team-member p{
+  	font-size: 15px;
+  	line-height: 1.467;
 }
