@@ -44,7 +44,7 @@ button{
 .prevue{
 	width: 100%;
 	height: 100vh;
-	background: url(../img/prevue/Prevue.png);
+	background: url("../img/prevue/Prevue.png");
 	background-size: cover;
 	position: relative;
 	color: #fff;
@@ -209,7 +209,8 @@ a .fa-chevron-down{
 	color: #fff !important;
 	background-color: #00897b !important;
 }
-.lates-works .btn-success{
+.lates-works .btn-success,
+.blog .btn-success{
 	background-color: #00897b !important;
   	width: 220px;
  	height: 70px;
@@ -369,4 +370,97 @@ a .fa-chevron-down{
 .team-member p{
   	font-size: 15px;
   	line-height: 1.467;
+}
+/*blog*/
+
+.blog{
+	background: #e4fdf9;
+	padding: 125px 0px;
+}
+
+.blog-text h3{
+  	font-size: 25px;
+  	line-height: 0.88;
+	font-weight: 600;
+}
+.blog-text h3:hover{
+  	animation-duration: .3s;
+	color: #00897b !important;
+}
+.blog-text p{
+  	font-size: 15px;
+  	line-height: 1.467;
+}
+.blog-text span{
+  	font-size: 17px;
+  	line-height: 1.294;
+	font-weight: 600;
+}
+
+/*Contact Us*/
+.contact-us{
+	padding: 125px 0px 100px 0px;
+	color: #fff;
+	width: 100%;
+	
+	background: url("../img/contact-us/bg.png");
+	background-size: cover;
+	
+}
+.contact-us i{
+	font-size: 44px;
+	color: #fff;
+
+	height: 80px;
+	width: 80px;
+	padding: 15px;
+	border-radius: 100%;
+	background-color: #3949ab;
+	margin-bottom: 36px;
+}
+.contact-us-col__text{
+  	font-size: 20px;
+  	line-height: 1.4;
+}
+.contact-us-col__text a{
+  	color: #fff;
+	text-decoration: none;
+}
+.contact-us__form{
+	color: #212121;
+}
+.contact-us__form textarea{
+	resize: none;
+	height: 320px !important;
+}
+.form-floating > label{
+	padding-left: 25px !important;
+  	font-size: 20px;
+  	color: #212121cc !important;
+	font-weight: 600;
+  	line-height: 1.4;
+
+}
+.contact-us__form textarea,input, button{
+	border-radius: 10px !important;
+}
+.contact-us__button{
+	margin-top: 40px;
+	
+	width: 220px !important;
+  	height: 72px !important;
+}
+.contact-us form{
+	margin-top: 82px;
+}
+/*Footer*/
+footer{
+	height: 65px;
+	padding: 20px 0px 0px 0px;
+}
+footer p{
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.1;
+
 }
