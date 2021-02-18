@@ -13,8 +13,8 @@ button{
   outline: none !important;
   box-shadow: none !important;
 }
-.container-fluid{
-	padding: 0px 110px !important;
+.container-md{
+	overflow: hidden;
 }
 /*Header*/
 .nav-item{
@@ -52,7 +52,6 @@ button{
 
 .prevue__title{
   font-size: 60px !important;
-  line-height: 0.367 !important;
   margin: 0px 0px 50px 0px;
 }
 .prevue__subtitle{
@@ -60,17 +59,14 @@ button{
 }
 .prevue__buttons .btn-outline-light{
   	border-width: 3px !important;
-  	width: 214px;
-  	height: 64px;
+  	width: 220px;
+ 	height: 70px;
 	margin: 0px 25px 0px 0px;
 }
 .prevue__buttons .btn-success{
   	background-color: #00897b !important;
   	width: 220px;
  	height: 70px;
-}
-.prevue__buttons{
-	margin: 110px 0px 0px 0px;
 }
 a .fa-chevron-down{
 	font-size: 25px; 
@@ -223,7 +219,8 @@ a .fa-chevron-down{
 }
 .lates-works__item {
 	position:relative;  
-	width: 100%;
+	max-width: 350px;
+	margin: 0 auto;
 }
 .lates-works__text {
 	position:absolute;
@@ -441,12 +438,13 @@ a .fa-chevron-down{
   	line-height: 1.4;
 
 }
-.contact-us__form textarea,input, button{
+.contact-us__form textarea,
+.contact-us__form input{
 	border-radius: 10px !important;
 }
 .contact-us__button{
 	margin-top: 40px;
-	
+	border-radius: 10px !important;
 	width: 220px !important;
   	height: 72px !important;
 }
@@ -462,5 +460,92 @@ footer p{
   font-size: 20px;
   font-weight: 700;
   line-height: 1.1;
-
+}
+@media(max-width: 1200px){
+	.pricingTable{
+	width: 270px;
+	}
+}
+@media(max-width: 992px){
+	.pricing-plan .col-lg-4{
+		margin-bottom: 30px;
+	}
+}
+@media(max-width: 656px){
+	.lates-works__buton-active{
+		margin-bottom: 10px;
+	}
+	.contact-us .container__button{
+		justify-content: center !important;
+	}
+	.blog-img img{
+		width: 400px !important;
+	}
+}
+@media(max-width: 582px){
+	.prevue__title{
+		margin-top: 20px;
+		font-size: 40px !important;
+	}
+}
+@media(max-width: 576px){
+	.contact-us .col-md-4:first-child{
+		margin-bottom: 10px;
+	}
+	.pricing-plan .col-7{
+		margin: 0 auto;
+	}
+	.prevue__buttons{
+		margin-left: 150px !important;
+	}
+	.prevue .btn-outline-light{
+		margin: 20px 0;
+	}
+	.blog .row{
+		margin-top: 30px;
+	}
+}
+@media(max-width: 536px){
+	.prevue__buttons{
+		margin: 30px 0px 0px 100px !important;
+	}
+	.prevue__title{
+  		margin-bottom: 20px;
+	}
+	.about-us .col-sm-5{
+		margin-bottom: 50px;
+	}
+	.our-services__col{
+		margin-bottom: 30px;
+	}
+	.lates-works .col-lg-4{
+		margin-bottom: 30px;
+	}
+}
+@media(max-width: 425px){
+	.prevue__buttons{
+		margin-left: 70px !important;
+	}
+	.pricing-plan .col-7{
+		margin-left: 70px;
+	}
+	.blog-img img{
+		width: 300px !important;
+	}
+}
+@media(max-width: 375px){
+	 .our-services__col{
+		 width: 240px !important;
+	 }
+	 .pricing-plan .col-7{
+		margin-left: 40px;
+	}
+}
+@media(max-width: 320px){
+	.prevue__buttons{
+		margin-left: 30px !important;
+	}
+	 .pricing-plan .col-7{
+		margin-left: 10px;
+	}
 }
