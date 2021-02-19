@@ -2,6 +2,7 @@
 body{
 	font-family: 'Open Sans', sans-serif !important;
 	color: #212121 !important;
+	position: relative;
 }
 button{
 	font-size: 20px !important;
@@ -15,6 +16,11 @@ button{
 }
 .container-md{
 	overflow: hidden;
+}
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  color: #fff !important;
+  background-color: #00897b !important;
 }
 /*Header*/
 .nav-item{
@@ -539,6 +545,9 @@ footer p{
 	 }
 	 .pricing-plan .col-7{
 		margin-left: 40px;
+	}
+	.prevue__buttons{
+		margin-left: 50px !important;
 	}
 }
 @media(max-width: 320px){

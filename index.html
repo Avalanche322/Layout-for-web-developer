@@ -8,17 +8,17 @@
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="scr/css/bootstrap.css">
 </head>
-<body>
+<body data-bs-spy="scroll" data-bs-target="#navContent" data-bs-offset="0" tabindex="0">
 	<header id="header" class="fixed-top">
 		<nav class="navbar navbar-expand-lg navbar-light py-4">
 			<div class="container-md text-centers">
 				<a href="#home" class="navbar-brand">Your Logo</a>
-				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navContent"
-					aria-controls="navContent" aria-expanded="false" aria-label="Toggle navigation">
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse"data-bs-target="#navContent"
+					 aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
 				</button>
 				<div class="collapse navbar-collapse justify-content-end" id="navContent">
-					<ul class="navbar-nav">
+					<ul class="navbar-nav nav-pills">
 						<li class="nav-item">
 							<a href="#home" class="nav-link">Home</a>
 						</li>
@@ -249,7 +249,7 @@
 			<button type="button" class="btn btn-success lates-works__buton">VIEW ALL</button>
 		</div>
 	</div>
-	<div class="pricing-plan">
+	<div class="pricing-plan" id="pricing-plan">
 		<div class="container-md text-center">
 			<h2 class=" title">Pricing Plan</h2>
 			<p class=" subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit illo dolor qui
@@ -315,7 +315,7 @@
 			</div>
 		</div>
 	</div>
-	<div class="our-team">
+	<div class="our-team" id="our-team">
 		<div class="container-md text-center">
 			<h2 class=" title">Our Team Member</h2>
 			<p class=" subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit illo dolor qui
