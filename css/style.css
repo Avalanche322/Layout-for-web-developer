@@ -10,11 +10,12 @@ button{
   	line-height: 1.1 !important;
 	border-radius: 0 !important;
 }
-.btn:focus {
+.btn:focus,
+.navbar-toggler {
   outline: none !important;
   box-shadow: none !important;
 }
-.wrapper{
+#wrapper{
 	overflow: hidden;
 }
 .nav-pills .nav-link.active,
@@ -23,6 +24,9 @@ button{
   background-color: #00897b !important;
 }
 /*Header*/
+#header{
+	z-index: 100;
+}
 .nav-item{
 	padding: 0px 30px 0px 0px;
 }
@@ -60,7 +64,7 @@ button{
   	font-size: 60px !important;
   	margin: 0px 0px 50px 0px;
 
-  	transform: translate(0px, 120%);
+  	transform: translate(0px, 100%);
 	transition: all 0.8s ease 0s;
 	opacity: 0;
 }
@@ -71,7 +75,7 @@ button{
 .prevue__subtitle{
   	font-size: 22px !important;
 
- 	transform: translate(0px, 120%);
+ 	transform: translate(0px, 100%);
 	opacity: 0;
 	transition: all 0.8s ease 0s;
 }
@@ -86,7 +90,7 @@ button{
  	height: 70px;
 	margin: 0px 25px 0px 0px;
 
-	transform: translate(-120%, 0px);
+	transform: translate(-100%, 0px);
 	opacity: 0;
 	transition: all 0.8s ease 0s;
 }
@@ -100,7 +104,7 @@ button{
   	width: 220px;
  	height: 70px;
 
-	transform: translate(120%, 0px);
+	transform: translate(100%, 0px);
 	opacity: 0;
 	transition: all 0.8s ease 0s;
 }
@@ -113,7 +117,7 @@ a .fa-chevron-down{
 	font-size: 25px; 
 	color: #fff;
 
-	transform: translate(0px, 120%);
+	transform: translate(0px, 100%);
 	opacity: 0;
 	transition: all 0.8s ease 0s;
 }
@@ -151,7 +155,7 @@ a .fa-chevron-down._active{
   	line-height: 0.733;
 	margin: 0px 0px 35px 0px;
 
-	transform: translate(0px, 120%);
+	transform: translate(0px, 100%);
 	opacity: 0;
 	transition: all 0.8s ease 0s;
 }
@@ -166,7 +170,7 @@ a .fa-chevron-down._active{
 	max-width: 630px;
 	margin: 0px auto 122px auto;
 
-	transform: translate(0px, 120%);
+	transform: translate(0px, 100%);
 	opacity: 0;
 	transition: all 0.8s ease 0s;
 }
@@ -193,7 +197,7 @@ a .fa-chevron-down._active{
   margin: 0px auto;
 }
 .about-us .col-lg-3{
-	transform: translate(0px, 120%);
+	transform: translate(0px, 100%);
 	opacity: 0;
 	transition: all 0.8s ease 0s;
 }
@@ -238,14 +242,14 @@ a .fa-chevron-down._active{
 .our-services__col:nth-child(1),
 .our-services__col:nth-child(2),
 .our-services__col:nth-child(3){
-	transform: translate(-120%, 0px);
+	transform: translate(-100%, 0px);
 	opacity: 0;
 	transition: all 0.8s ease 0s;
 }
 .our-services__col:nth-child(4),
 .our-services__col:nth-child(5),
 .our-services__col:nth-child(6){
-	transform: translate(120%, 0px);
+	transform: translate(100%, 0px);
 	opacity: 0;
 	transition: all 0.8s ease 0s;
 }
@@ -324,7 +328,7 @@ a .fa-chevron-down._active{
 .lates-works__buton{
 	margin: 128px 0px 0px 0px;
 
-	transform: translate(0px, 120%);
+	transform: translate(0px, 100%);
 	opacity: 0;
 	transition: all 0.8s ease 0s;
 }
@@ -335,13 +339,13 @@ a .fa-chevron-down._active{
 }
 .lates-works__butons .btn-outline-success:nth-child(1),
 .lates-works__butons .btn-outline-success:nth-child(2){
-	transform: translate(-120%, 0px);
+	transform: translate(-100%, 0px);
 	opacity: 0;
 	transition: all 0.8s ease 0s;
 }
 .lates-works__butons .btn-outline-success:nth-child(4),
 .lates-works__butons .btn-outline-success:nth-child(3){
-	transform: translate(120%, 0px);
+	transform: translate(100%, 0px);
 	opacity: 0;
 	transition: all 0.8s ease 0s;
 }
@@ -380,14 +384,14 @@ a .fa-chevron-down._active{
 .lates-works .col-lg-4:nth-child(1),
 .lates-works .col-lg-4:nth-child(2),
 .lates-works .col-lg-4:nth-child(3){
-	transform: translate(-120%, 0px);
+	transform: translate(-100%, 0px);
 	opacity: 0;
 	transition: all 0.8s ease 0s;
 }
 .lates-works .col-lg-4:nth-child(4),
 .lates-works .col-lg-4:nth-child(5),
 .lates-works .col-lg-4:nth-child(6){
-	transform: translate(120%, 0px);
+	transform: translate(100%, 0px);
 	opacity: 0;
 	transition: all 0.8s ease 0s;
 }
@@ -403,7 +407,7 @@ a .fa-chevron-down._active{
 	padding: 125px 0px;
 }
 .pricing-plan .col-lg-4:nth-child(1){
-	transform: translate(-120%, 0px);
+	transform: translate(-100%, 0px);
 	opacity: 0;
 	transition: all 0.8s ease 0s;
 }
@@ -413,7 +417,7 @@ a .fa-chevron-down._active{
 	transition: all 0.8s ease 0s;
 }
 .pricing-plan .col-lg-4:nth-child(3){
-	transform: translate(120%, 0px);
+	transform: translate(100%, 0px);
 	opacity: 0;
 	transition: all 0.8s ease 0s;
 }
@@ -603,7 +607,7 @@ a .fa-chevron-down._active{
 	background-size: cover;
 }
 .contact-us .col-lg-3{
-	transform: translate(0px, 120%);
+	transform: translate(0px, 100%);
 	opacity: 0;
 	transition: all 0.8s ease 0s;
 }
@@ -645,13 +649,13 @@ a .fa-chevron-down._active{
 	color: #212121;
 }
 .contact-us__col1{
-	transform: translate(-120%, 0px);
+	transform: translate(-100%, 0px);
 	opacity: 0;
 	transition: all 0.8s ease 0s;
 }
 .contact-us__col2,
 .contact-us__col4{
-	transform: translate(120%, 0px);
+	transform: translate(100%, 0px);
 	opacity: 0;
 	transition: all 0.8s ease 0s;
 }
@@ -793,4 +797,87 @@ footer p{
 	 .pricing-plan .col-7{
 		margin-left: 10px;
 	}
+}
+#cube-loader {
+  	align-items: center;
+  	display: flex;
+  	height: 100%;
+  	width: 100%;
+  	position: fixed;
+  	z-index: 999;
+  	overflow: visible;
+  	background: #fff;
+}
+.visible {
+  visibility: visible;
+  opacity: 1;
+  transition: opacity 2s linear;
+}
+.hidden {
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s 2s, opacity 2s linear;
+}
+#cube-loader .caption {
+	margin: 0 auto;
+}
+.cube-loader {
+	width: 73px;
+	height: 73px;
+	margin: 0 auto;
+	margin-top: 49px;
+	position: relative;
+	transform: rotateZ(45deg);
+}
+
+.cube-loader .cube {
+	position: relative;
+	transform: rotateZ(45deg);
+	width: 50%;
+	height: 50%;
+	float: left;
+	transform: scale(1.1);
+}
+.cube-loader .cube:before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(52, 73, 94, 1.0);
+	animation: cube-loader 2.76s infinite linear both;
+	transform-origin: 100% 100%;
+}
+.cube-loader .loader-2 {
+	transform: scale(1.1) rotateZ(90deg);
+}
+.cube-loader .loader-3 {
+transform: scale(1.1) rotateZ(180deg);
+}
+.cube-loader .loader-4 {
+transform: scale(1.1) rotateZ(270deg);
+}
+.cube-loader .loader-2:before {
+animation-delay: 0.35s;
+}
+.cube-loader .loader-3:before {
+animation-delay: 0.69s;
+}
+.cube-loader .loader-4:before {
+animation-delay: 1.04s;
+}
+@keyframes cube-loader {
+  0%, 10% {
+    transform: perspective(136px) rotateX(-180deg);
+    opacity: 0;
+  }
+  25%, 75% {
+    transform: perspective(136px) rotateX(0deg);
+    opacity: 1;
+  }
+  90%, 100% {
+    transform: perspective(136px) rotateY(180deg);
+    opacity: 0;
+  }
 }

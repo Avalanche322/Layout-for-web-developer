@@ -1,3 +1,16 @@
+function loadData() {
+	return new Promise((resolve, reject) => {
+		setTimeout(resolve, 2000);
+	})
+}
+
+loadData()
+	.then(() => {
+		let preloaderEl = document.getElementById('cube-loader');
+		preloaderEl.classList.add('hidden');
+		preloaderEl.classList.remove('visible');
+	});
+
 $(function () {
 	$(".lates-works__buton-active").on('click', function () {
 		$('.btn-outline-success ').removeClass('active')
