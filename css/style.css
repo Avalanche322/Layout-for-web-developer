@@ -84,6 +84,9 @@ button{
 	transition: all 0.8s ease 0.4s;
 	opacity: 1;
 }
+.prevue__buttons .btn-outline-light:hover{
+	transition: all 0.5s ease 0s !important;
+}
 .prevue__buttons .btn-outline-light{
   	border-width: 3px !important;
   	width: 220px;
@@ -336,6 +339,9 @@ a .fa-chevron-down._active{
 	transform: translate(0px, 0px);
 	transition: all 0.8s ease 0.5s;
 	opacity: 1;
+}
+.lates-works__butons .btn-outline-success:hover{
+	transition: all 0.5s ease 0s !important;
 }
 .lates-works__butons .btn-outline-success:nth-child(1),
 .lates-works__butons .btn-outline-success:nth-child(2){
@@ -754,9 +760,6 @@ footer p{
 @media(max-width: 536px){
 	.prevue__buttons{
 		margin: 30px 0px 0px 100px !important;
-	}
-	.prevue__title{
-  		margin-bottom: 20px;
 	}
 	.about-us .col-sm-5{
 		margin-bottom: 50px;
