@@ -807,6 +807,9 @@ footer p{
 	.pricing-plan .col-lg-4{
 		margin-bottom: 30px;
 	}
+	.nav-link{
+		padding-left: 10px !important;
+	}
 }
 @media(max-width: 656px){
 	.lates-works__buton-active{
