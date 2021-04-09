@@ -1,5 +1,7 @@
-/*Common*/
+/*===================Import=========================*/
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+
+/*===================Common=========================*/
 body{
 	font-family: 'Open Sans', sans-serif !important;
 	color: #212121 !important;
@@ -24,7 +26,7 @@ button{
   color: #fff !important;
   background-color: #00897b !important;
 }
-/*Preloader*/
+/*===================Preloader=========================*/
 #cube-loader {
   	align-items: center;
   	display: flex;
@@ -108,7 +110,7 @@ animation-delay: 1.04s;
     opacity: 0;
   }
 }
-/*Header*/
+/*===================Header=========================*/
 #header{
 	z-index: 100;
 }
@@ -135,11 +137,11 @@ animation-delay: 1.04s;
   	font-weight: 700;
   	line-height: 0.88;
 }
-/*Prevue*/
+/*===================Prevue=========================*/
 .prevue{
 	width: 100%;
 	height: 100vh;
-	background: url("../img/prevue/Prevue.png") fixed top center;
+	background: url("../img/prevue/Prevue.png") fixed center;
 	background-size: cover;
 	position: relative;
 	color: #fff;
@@ -233,7 +235,7 @@ a .fa-chevron-down._active{
 			animation-timing-function: ease-in-out;
 	}
 }
-/*About us*/
+/*===================About Us=========================*/
 .about-us {
 	padding: 125px 50px;
 }
@@ -305,7 +307,7 @@ a .fa-chevron-down._active{
 	opacity: 1;
 }
 
-/*Our services*/
+/*===================Our services=========================*/
 .our-services{
 	background-color: #e4fdf9;
 	padding: 170px 0px 125px 0px;
@@ -384,7 +386,7 @@ a .fa-chevron-down._active{
 	background-color: #00897b !important;
 }
 
-/*Lates works*/
+/*===================Latest works=========================*/
 .lates-works{
 	padding: 125px 0px 136px 0px;
 }
@@ -492,7 +494,7 @@ a .fa-chevron-down._active{
 	opacity: 1;
 }
 
-/*pricing plap*/
+/*===================Pricing plan=========================*/
 .pricing-plan{
 	background: #e4fdf9;
 	padding: 125px 0px;
@@ -589,32 +591,48 @@ a .fa-chevron-down._active{
 	animation-duration: 1.5s;
 	box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.5);
 }
-/*Our team*/
+/*===================Our team=========================*/
 .our-team{
 	padding: 123px 0px;
 }
-.our-team #our-team{
-	transform: translate(0px, 20%);
-	opacity: 0;
-	transition: all 0.8s ease 0s;
+.our-team .slick-track{
+	display: flex;
 }
-.our-team #our-team._active{
-	transform: translate(0px, 0px);
-	transition: all 0.8s ease 0.5s;
-	opacity: 1;
+.our-team .slick-list{
+	overflow: hidden;
 }
-.carousel-indicators{
-	bottom: -120px !important;
+.our-team .slick-dots{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 80px;
 }
-.carousel-indicators li{
+.our-team .slick-dots li{
+	list-style: none;
+	margin: 0px 10px;
+}
+.our-team .slick-dots li.slick-active button{
+	background-color: #3949ab !important;
+}
+.our-team .slick-dots button{
+	font-size: 0 !important;
+	border: none !important;
 	border-radius: 100% !important;
 	background-color: #00897b !important;
 	width: 15px !important;
 	height: 15px !important;
 	opacity: 1 !important;
+	outline: none !important;
 }
-.carousel-indicators .active{
-	background-color: #3949ab !important;
+.our-team .our-team__slider{
+	transform: translate(0px, 20%);
+	opacity: 0;
+	transition: all 0.8s ease 0s;
+}
+.our-team .our-team__slider._active{
+	transform: translate(0px, 0px);
+	transition: all 0.8s ease 0.5s;
+	opacity: 1;
 }
 .team-member .social i{
 	color: #00897b !important;
@@ -645,8 +663,8 @@ a .fa-chevron-down._active{
   	font-size: 15px;
   	line-height: 1.467;
 }
-/*blog*/
 
+/*===================Blog=========================*/
 .blog{
 	background: #e4fdf9;
 	padding: 125px 0px;
@@ -688,7 +706,7 @@ a .fa-chevron-down._active{
 	font-weight: 600;
 }
 
-/*Contact Us*/
+/*===================Contact Us=========================*/
 .contact-us{
 	padding: 125px 0px 100px 0px;
 	color: #fff;
@@ -788,7 +806,8 @@ a .fa-chevron-down._active{
 .contact-us form{
 	margin-top: 82px;
 }
-/*Footer*/
+
+/*===================Footer=========================*/
 footer{
 	height: 65px;
 	padding: 20px 0px 0px 0px;
@@ -798,9 +817,10 @@ footer p{
   font-weight: 700;
   line-height: 1.1;
 }
+/*===================Adaptation=========================*/
 @media(max-width: 1200px){
 	.pricingTable{
-	width: 270px;
+		width: 270px;
 	}
 }
 @media(max-width: 992px){
@@ -820,6 +840,9 @@ footer p{
 	}
 	.blog-img img{
 		width: 400px !important;
+	}
+	.team-member img{
+		max-width: 400px !important;
 	}
 }
 @media(max-width: 582px){
