@@ -1,3 +1,8 @@
 # Layout-for-web-developer
-This is my first Bootstrap website and fourth in my portfolio. I made this site on a layout. It has cool animation, and it's probably my best site.
-There is nothing to talk about, just come in and see that.
+This is my first Bootstrap website and fourth in my portfolio. 
+
+### Tools
+This project is built on: HTMl, CSS, JS, JQuery, Bootstrap.
+
+### Plugins
+Slick slider.
