@@ -1,15 +1,19 @@
-/*===================Preloader=========================*/
 function loadData() {
 	return new Promise((resolve, reject) => {
 		setTimeout(resolve, 1000);
 	})
 }
-loadData()
-	.then(() => {
-		let preloaderEl = document.getElementById('cube-loader');
-		preloaderEl.classList.add('hidden');
-		preloaderEl.classList.remove('visible');
-	});
+/*===================Preloader=========================*/
+loadData().then(() => {
+	let preloaderEl = document.getElementById('cube-loader');
+	preloaderEl.classList.add('hidden');
+	preloaderEl.classList.remove('visible');
+});
+/*=========================Animation====================================*/
+loadData().then(() => {
+	animOnScroll();
+	window.addEventListener('scroll', animOnScroll);
+});
 /*===================Latest works active button=========================*/
 $(function () {
 	$(".lates-works__buton-active").on('click', function () {
@@ -33,7 +37,6 @@ dataSpyList.forEach(function (dataSpyEl) {
 /*===================Animation=========================*/
 const animItems = document.querySelectorAll('._anim-items');
 if (animItems.length > 0) {
-	window.addEventListener('scroll', animOnScroll);
 	function animOnScroll() {
 		for (let index = 0; index < animItems.length; index++) {
 			const animItem = animItems[index];
