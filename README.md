@@ -26,7 +26,7 @@ Clone repository
 
 Open folder
 
-`cd create-studio`
+`cd Layout-for-web-developer`
 
 Install node modules:
 
