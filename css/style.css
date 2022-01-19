@@ -503,22 +503,22 @@ a .fa-chevron-down{
 	background: #e4fdf9;
 	padding: 125px 0px;
 }
-.blog-img{
+.blog__img{
 	max-width: 570px;
 }
-.blog-img img{
+.blog__img img{
 	width: 100%;
 }
-.blog-text h3{
+.blog__text h3{
   	font-size: 25px;
   	line-height: 0.88;
 	font-weight: 600;
 }
-.blog-text p{
+.blog__text p{
   	font-size: 15px;
   	line-height: 1.467;
 }
-.blog-text span{
+.blog__text span{
   	font-size: 17px;
   	line-height: 1.294;
 	font-weight: 600;
@@ -851,20 +851,20 @@ a .fa-chevron-down._active{
 	opacity: 1;
 }
 /*==========Blog============*/
-.blog .blog-row:nth-child(1),
-.blog .blog-row:nth-child(2){
+.blog__row:nth-child(1),
+.blog__row:nth-child(3){
 	transform: translate(100%, 0px);
 	opacity: 0;
 	transition: transform 0.8s ease 0s,opacity 0.8s ease 0s;
 }
-.blog .blog-row:nth-child(3){
+.blog__row:nth-child(2){
 	transform: translate(-100%, 0px);
 	opacity: 0;
 	transition: transform 0.8s ease 0s,opacity 0.8s ease 0s;
 }
-.blog .blog-row:nth-child(1)._active,
-.blog .blog-row:nth-child(2)._active,
-.blog .blog-row:nth-child(3)._active{
+.blog__row:nth-child(1)._active,
+.blog__row:nth-child(2)._active,
+.blog__row:nth-child(3)._active{
 	transform: translate(0px, 0px);
 	transition: transform 0.8s ease 0.3s,opacity 0.8s ease 0.3s;
 	opacity: 1;
@@ -906,10 +906,10 @@ a .fa-chevron-down._active{
 	opacity: 0;
 	transition: transform 0.8s ease 0s,opacity 0.8s ease 0s;
 }
-.contact-us__form-item:nth-child(1),
-.contact-us__form-item:nth-child(2),
-.contact-us__form-item:nth-child(3),
-.contact-us__form-item:nth-child(4){
+.contact-us__form-item._active:nth-child(1),
+.contact-us__form-item._active:nth-child(2),
+.contact-us__form-item._active:nth-child(3),
+.contact-us__form-item._active:nth-child(4){
 	transform: translate(0px, 0px);
 	transition: transform 0.8s ease 0s,opacity 0.8s ease 0s;
 	opacity: 1;

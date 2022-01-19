@@ -1,7 +1,5 @@
 function loadData() {
-	return new Promise((resolve, reject) => {
-		setTimeout(resolve, 1000);
-	})
+	return new Promise(resolve => setTimeout(resolve, 1000))
 }
 /*===================Preloader=========================*/
 loadData().then(() => {
