@@ -1,6 +1,6 @@
 # Square Space
 
-An website use GitPage for hosting, SCSS, Bootstrap, Tailwind, HTML, JQuery and JS.
+An website use GitPage for hosting, SCSS, Bootstrap, HTML, JQuery and JS.
 
 ## Project Status
 
