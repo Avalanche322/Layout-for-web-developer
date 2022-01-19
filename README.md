@@ -1,6 +1,6 @@
-# BEST CREATIVE STUDIO
+# Square Space
 
-An website use GitPage for hosting, SCSS, Bootstrap, Tailwind, HTML, JQuery and JS.
+An website use GitPage for hosting, SCSS, Bootstrap, HTML, JQuery and JS.
 
 ## Project Status
 
@@ -12,7 +12,7 @@ This project is currently done. Users can see information about the design studi
 
 ## Installation and Setup Instructions
 
-Open [https://avalanche322.github.io/create-studio/](https://avalanche322.github.io/create-studio/) to view it in the browser.
+Open [https://avalanche322.github.io/Layout-for-web-developer](https://avalanche322.github.io/Layout-for-web-developer) to view it in the browser.
 
 Clone down this repository. You will need firebase account and `node`, `npm` installed globally on your machine.
 
@@ -22,11 +22,11 @@ Installation:
 
 Clone repository
 
-`git clone https://github.com/Avalanche322/create-studio.git`  
+`git clone https://github.com/Avalanche322/Layout-for-web-developer.git`  
 
 Open folder
 
-`cd create-studio`
+`cd Layout-for-web-developer`
 
 Install node modules:
 
